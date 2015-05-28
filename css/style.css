@@ -35,13 +35,17 @@ h1 {
     height: 111px;
     width: 111px;
 }
+
 /*Navbar Styles*/
 .navbar {
     border-top: 5px solid #f7941d;
     border-bottom: 5px solid #f7941d;
     height: 149px;
     background-color: #ffffff;
-    
+}
+
+.navbar a {
+     outline: 0 !important;
 }
 
 .navbar-nav{
@@ -55,12 +59,15 @@ ul.navbar-nav > li a{
     color: #2e2e2e !important;
     padding: 5px 10px;
     margin: 10px;
-    outline: 0 !important;
 }
 
 ul.navbar-nav > li a:hover{
     color: #999 !important;
     transition: opacity 1s ease-in-out;
+}
+
+ul.navbar-nav > li > a:focus {
+    border-bottom: 2px solid #bbb;
 }
 
 ul.navbar-nav > li.active > a {
