@@ -201,6 +201,7 @@ ul.navbar-nav > li.active > a {
 #puntosimportantes img {
     display: block;
     margin: 40px auto;
+    max-width: 100%;
 }
 
 /* Tipos de Poda */
@@ -234,6 +235,10 @@ ul.navbar-nav > li.active > a {
 
 #tiposdepoda .cuadro h3 {
     font: 400 20px / 20px Lato;
+}
+
+#tiposdepoda .cuadro img {
+   max-width: 100%;
 }
 
 /*Maquinaria*/
@@ -300,9 +305,10 @@ footer {
 .footer-rights{
     font: 400 11.99px / 20px Cabin;
     background-color: #5c951d;
-    height: 49px;
+    min-height: 49px;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 1px;
 }
 
 footer a{
@@ -430,13 +436,27 @@ footer a{
     }
 
     .carousel-caption h1 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
     
     .carousel-caption h2 {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 15px;
     }
+    
+    #servicios h1 {
+        font: 400 25px / 20px Lato;
+        text-align: center;
+        color: #fff;
+        padding: 64px 0px;
+    }
+    
+    #tiposdepoda .cuadro h3 {
+        font: 400 14px / 20px Lato;
+        font-weight: bold;
+    }
+    
+    
 }
 
