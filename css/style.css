@@ -61,13 +61,10 @@ ul.navbar-nav > li a{
     margin: 10px;
 }
 
-ul.navbar-nav > li a:hover{
+ul.navbar-nav > li > a:hover{
+    border-bottom: 2px solid #bbb;
     color: #999 !important;
     transition: opacity 1s ease-in-out;
-}
-
-ul.navbar-nav > li > a:focus {
-    border-bottom: 2px solid #bbb;
 }
 
 ul.navbar-nav > li.active > a {
@@ -235,6 +232,7 @@ ul.navbar-nav > li.active > a {
     width: 60%;
     height: auto;
     margin: 25px auto;
+    padding: 20px;
 }
 
 #tiposdepoda .cuadro p {
@@ -350,6 +348,18 @@ footer a{
 /*Collapsible navbar starts here*/
 @media (max-width: 767px) {
     
+    ul.navbar-nav > li.active > a {
+    border-left: 2px solid #f7941d;
+    border-bottom: none;
+    }
+    
+    ul.navbar-nav > li > a:hover{
+        border-left: 2px solid #bbb;
+        border-bottom: none;
+        color: #999 !important;
+        transition: opacity 1s ease-in-out;
+    }
+    
     .carousel-caption h1 {
         font-size: 18px;
         margin-bottom: 5px
@@ -461,10 +471,13 @@ footer a{
     }
     
     #tiposdepoda .cuadro h3 {
-        font: 400 14px / 20px Lato;
+        font: 400 13px / 20px Lato;
         font-weight: bold;
     }
     
+    .cuadro {
+        padding: 5px !important;
+    }
     
 }
 
