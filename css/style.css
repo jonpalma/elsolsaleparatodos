@@ -262,11 +262,11 @@ ul.navbar-nav > li.active > a {
     margin: 40px;
 }
 
-/* Modified Parallax CSS */
+/* Modified Parallax CSS by Chris */
 .parallax-container {
     position: relative;
     overflow: hidden;
-    min-height: 500px;
+    min-height: 280px;
     height: auto;
 }
 
@@ -342,6 +342,150 @@ footer a{
     box-shadow: 2px 2px;
 }
 
+/* Para las otras páginas que no son el index.html */
+
+#contacto .parallax-container .container, #maquinariaphp .parallax-container .container {
+    padding: 100px 10px;
+    text-align: center;
+
+}
+
+#contacto h1, #maquinariaphp h1 {
+    margin: auto;
+    color: white;
+    font: 700 45px / 50px Lato;
+    padding-bottom: 15px;
+    border-bottom: #ffffff solid 3px;
+    width: 350px;
+}
+
+#contacto h2 {
+    font: 400 22px / 24.48px Lato;
+    color: #f7941d;
+}
+
+#maquinariaphp h2.green {
+    font: 400 35px / 34.768px Lato;
+    color: #65a113;
+    text-align: center;
+    margin: 45px auto;
+}
+
+#maquinariaphp h2.white {
+    font: 400 35px / 34.768px Lato;
+    color: #fff;
+    text-align: center;
+    margin: 45px auto;
+}
+#maquinariaphp .parallax-container p {
+    margin: 20px 0px;
+    font: 400 15px / 25px Lato;
+    color: #fff;
+}
+
+#maquinariaphp .jumbotron {
+    text-align: center;
+}
+
+#maquinariaphp .jumbotron p {
+    margin: -30px 0px 30px 0px;
+    font: 400 15px / 25px Lato;
+}
+
+#map-overlay {
+    position: relative;
+    z-index: 500;
+}
+
+#googleMap {
+    height: 444px;
+}
+
+.idle #map-overlay {
+    display: block;
+}
+
+.galeriamaquinaria img, .videosmaquinaria img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.galeriamaquinaria, .videosmaquinaria {
+    text-align: center;
+}
+
+.galeriamaquinaria .bigimg {
+    height: 450px;
+    width: auto;
+}
+
+.imagehoverdiv, .videohoverdiv {
+    overflow: hidden;
+    margin: 5px auto;
+    position:relative;
+}
+
+.imagehoverdiv:after, .imagehoverdiv:before, .videohoverdiv:after, .videohoverdiv:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.imagehoverdiv:after {
+    content: "";
+    background: url('../img/maquinaria/hover.png') no-repeat center center;
+    width:100%; height:100%;
+    top:0; left:0;
+    background-color: rgba(101, 161, 19, 0.51);
+}
+.videohoverdiv:after {
+    content: "";
+    background: url(../img/maquinaria/hovervideo.png) no-repeat center center;
+    width:100%; height:100%;
+    top:0; left:0;
+    background-color: rgba(101, 161, 19, 0.51);
+}
+
+.video-link {
+    margin: 5px;
+}
+.imagehoverdiv:before, .videohoverdiv:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    bottom:0;
+    padding:4px 10px;
+    text-align:center;
+}
+.imagehoverdiv:hover:after, .imagehoverdiv:hover:before, .videohoverdiv:hover:after, .videohoverdiv:hover:before  {
+    opacity:1;
+}
+
+#contacto p {
+    font: 300 12px / 24.48px Lato;
+}
+
+#contacto form label {
+    margin: 3px 0px 0px 1px;
+    font: 400 11px / 24.48px Lato;
+}
+
+.contacto-enviar{
+    margin: 5px 0px;
+    background-color: #f7941d;
+    width: 95px;
+    height: 35px;
+    color: #fff;
+    font: 400 11px / 24.48px Lato;
+    border: none;
+}
+
+.contacto-enviar:hover{
+    background-color: #C67617;
+    
+}
 
 /* Media Queries */
 
@@ -406,6 +550,10 @@ footer a{
 
 /* 991 - md becomes sd */
 @media (max-width: 991px) {
+    .separador {
+        height: 0px;
+    }
+    
     .centerdiv {
         left: 0%;
     }
@@ -441,6 +589,10 @@ footer a{
 
 /* Media Queries for proper display on REALLY small screens (Do these even exist?) */
 @media (max-width: 430px) {
+    
+    .carousel-caption {
+        top: -15%;
+    }
     
     .carousel-indicators > li {
             display: none;

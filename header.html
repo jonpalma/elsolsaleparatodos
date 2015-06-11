@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Sol Sale para Todos</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Agencia Mixen www.mixen.mx">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <!-- favicon -->   
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    
+</head>
+<body data-spy="scroll" data-target=".navbar-nav">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-sol">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#inicio" class="navbar-brand smoothScroll">
+                        <img src="img/logo.png" alt="Logo ESSPT" class="img-responsive logo-ESSPT">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-sol">
+                    <ul class="nav navbar-nav">
+                        <li><a href="<?php if($currentpage == 'index') {print('#inicio');} else {print('index.php');} ?>" class="smoothScroll" data-toggle="" data-target="">INICIO</a></li>
+                        <li><a href="<?php if($currentpage == 'index') {print('#conocenos');} else {print('index.php#conocenos');} ?>" class="smoothScroll" data-toggle="" data-target="">CONÓCENOS</a></li>
+                        <li><a href="<?php if($currentpage == 'index') {print('#servicios');} else {print('index.php#servicios');} ?>" class="smoothScroll" data-toggle="" data-target="">SERVICIOS</a></li>
+                        <li class="<?php if($currentpage == 'maquinaria') {print('active');} ?>"><a href="maquinaria.php">MAQUINARIA</a></li>
+                        <li class="<?php if($currentpage == 'contacto') {print('active');} ?>"><a href="contacto.php">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>         
+        </nav>
+    </header>
