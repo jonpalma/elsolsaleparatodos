@@ -19,10 +19,8 @@
                     <h2>CONTÁCTANOS</h2>
                     <br>
                     <p>Para cualquier duda o situación estamos a la orden.</p>
-                    <p>Oficina</p>
                     <p>Email</p>
-                    <p>email@ejemplo.com</p>
-                    <p>wmail@wexample.com</p>
+                    <p>rentas@elsolsaleparatodos.mx</p>
                </div>
                <div class="col-xs-0 col-md-1">
                     <img src="img/content/vert-sep.png" alt="Separador" class="separador">
@@ -51,13 +49,7 @@
            </div>
        </div>
                      
-    </div>
-    
-    <div id="map-overlay">
-        <div class="container-fluid" id="googleMap"></div>
-    </div>
-    <br>
-    <br>  
+    </div>  
 </div>
 
 <?php include('footer.html'); ?>

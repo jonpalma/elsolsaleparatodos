@@ -120,7 +120,7 @@
                 
                 <h2 class="green">DESCARGA NUESTRO MANUAL</h2>
                 <p>Conoce la maquinaria con la que contamos en El Sol Sale Para Todos.</p>
-                <a class="btn btn-maquinaria" href="maquinaria.php" role="button">Conócela</a>
+                <a class="btn btn-maquinaria" href="ManualElSolSaleParaTodos.pdf" role="button">Conócela</a>
             </div>
         </div>
 </div>
