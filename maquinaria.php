@@ -12,17 +12,17 @@
     </div>
     
     <div class="jumbotron bg-white">
-        <div class="container">
+        <div class="container galeriamaquinaria">
             <h2 class="green">CONOCE NUESTRAS MÁQUINAS</h2>
-            <div class="row galeriamaquinaria">
+            <div class="row">
                 <div class="col-xs-12 col-md-3">
                     <a href="img/maquinaria/1-hd.jpg" data-lightbox="m2" data-title="Máquina 1">
                         <div class="imagehoverdiv">
-                            <img src="img/maquinaria/1.png" alt="Máquina 1" class="bigimg">
+                            <img src="img/maquinaria/1.png" alt="Máquina 1" class="bigimg 1">
                         </div>
                     </a>              
                 </div>
-                <div class="col-xs-12 col-md-9 referencediv">
+                <div class="col-xs-12 col-md-9 referencediv1">
                     <div class="row">
                         <div class="col-xs-12 col-md-4">
                             <a href="img/maquinaria/2-hd.jpg" data-lightbox="m2" data-title="Máquina 2">
@@ -39,6 +39,26 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
+                            <a href="img/maquinaria/5-hd.jpg" data-lightbox="m2" data-title="Antes y Después">
+                                <div class="imagehoverdiv">
+                                    <img src="img/maquinaria/5.png" alt="Antes y Después">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-9 referencediv2">
+                    <div class="row">
+                       <div class="col-xs-12 col-md-8">
+                           <a href="img/maquinaria/6-hd.jpg" data-lightbox="m2" data-title="Podados">
+                                <div class="imagehoverdiv">
+                                    <img src="img/maquinaria/6.png" alt="Podados">
+                                </div>
+                            </a>
+                       </div>
+                        <div class="col-xs-12 col-md-4">
                             <a href="img/maquinaria/4-hd.jpg" data-lightbox="m2" data-title="Máquina 4">
                                 <div class="imagehoverdiv">
                                     <img src="img/maquinaria/4.png" alt="Máquina 4">
@@ -46,6 +66,29 @@
                             </a>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <a href="img/maquinaria/7-hd.jpg" data-lightbox="m2" data-title="Árboles">
+                                <div class="imagehoverdiv">
+                                    <img src="img/maquinaria/7.png" alt="Árboles">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                            <a href="img/maquinaria/8-hd.jpg" data-lightbox="m2" data-title="Árboles">
+                                <div class="imagehoverdiv">
+                                    <img src="img/maquinaria/8.png" alt="Árboles">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <a href="img/maquinaria/9-hd.jpg" data-lightbox="m2" data-title="Árboles">
+                        <div class="imagehoverdiv">
+                            <img src="img/maquinaria/9.png" alt="Máquina 1" class="bigimg 2">
+                        </div>
+                    </a>  
                 </div>
             </div>
         </div>
@@ -68,9 +111,9 @@
                 <h2 class="green">VIDEOS</h2>
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
-                        <div class="video-link videohoverdiv" data-video-id="JwV0dUXw0EU">
-                            <img src="img/maquinaria/videothumbs/1.jpg" alt="Video Link"/>
-                        </div>                        
+                        <div class="videohoverdiv video-link"  data-video-id="bguBzC5rVYY">
+                            <img src="img/maquinaria/videothumbs/9.jpg" alt="Video Link"/>
+                        </div>                      
                     </div>
                     <div class="col-xs-12 col-md-4">
                         <div class="videohoverdiv video-link"  data-video-id="2bpVq34s0ss">
@@ -101,6 +144,7 @@
                     </div>
                 </div>
                 <div class="row">
+                   <div class="col-xs-12 col-md-2"></div>
                     <div class="col-xs-12 col-md-4">
                         <div class="videohoverdiv video-link"  data-video-id="3qvquWxhwRM">
                             <img src="img/maquinaria/videothumbs/7.jpg" alt="Video Link"/>
@@ -111,16 +155,12 @@
                             <img src="img/maquinaria/videothumbs/8.jpg" alt="Video Link"/>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                        <div class="videohoverdiv video-link"  data-video-id="bguBzC5rVYY">
-                            <img src="img/maquinaria/videothumbs/9.jpg" alt="Video Link"/>
-                        </div>
-                    </div>
+                    <div class="col-xs-12 col-md-2"></div>
                 </div>
                 
-                <h2 class="green">DESCARGA NUESTRO MANUAL</h2>
+                <h2 class="green">DESCARGA NUESTRO MANUAL TÉCNICO</h2>
                 <p>Conoce la maquinaria con la que contamos en El Sol Sale Para Todos.</p>
-                <a class="btn btn-maquinaria" href="pdf/ManualElSolSaleParaTodos.pdf" role="button">Conócela</a>
+                <a class="btn btn-maquinaria" href="pdf/manualtecnicoelsolsaleparatodos.pdf" role="button">Conócela</a>
             </div>
         </div>
 </div>

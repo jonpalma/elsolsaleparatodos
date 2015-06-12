@@ -448,7 +448,7 @@ footer a{
 }
 
 .video-link {
-    margin: 5px;
+    margin: 5px -9px;
 }
 .imagehoverdiv:before, .videohoverdiv:before {
     content: attr(data-content);

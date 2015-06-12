@@ -19,7 +19,7 @@ $(window).resize(function(){
 
 });
 
-$(window).load(function(){    $('.bigimg').height($('.referencediv').height() - 10); })
+$(window).load(function(){    $('.bigimg1').height($('.referencediv.1').height() - 10); $('.bigimg.2').height($('.referencediv2').height() - 10); })
 
 //Para regular el comportamiento colapsible del menú en móviles
 function setMenuStyles(){

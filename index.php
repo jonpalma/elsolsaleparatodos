@@ -63,7 +63,7 @@
             <div class="jumbotron bg-white">
                <div class="container">
                    <h1>¿QUIÉNES SOMOS?</h1>
-                   <p>Nueces Dolores necesitaba de una tecnología más rápida y eficiente para la poda del nogal. En el año 2002 el Ing. Francisco Aguayo Uribe, como productor líder y con mucha visión logró darse cuenta que era el momento de adquirir una máquina podadora de calidad mundial.</p>
+                   <p>Nueces Dolores necesitaba de una tecnología más rápida y eficiente para la poda del nogal. En el año 2002 un emprendedor, como productor líder y con mucha visión, logró darse cuenta que era el momento de adquirir una máquina podadora de calidad mundial.</p>
                    <p>Es así como nace en Chihuahua, El Sol Sale Para Todos. Empresa que actualmente es líder en el servicio de poda mecánica.</p>
                </div>                
             </div>
