@@ -5,19 +5,21 @@ var menuCollapsed = false;
 $(document).ready(function(){
     $('body').scrollspy({offset: 150});
     $('.parallax').parallax();
-    setMenuStyles();
-    $('.bigimg').height($('.referencediv').height() - 10);
+    setMenuStyles();    
     $(".video-link").jqueryVideoLightning({
         autoplay: true,
         color: "white"
-    });    
+    });
+
 });
 
 //
 $(window).resize(function(){
     setMenuStyles();
-    $('.bigimg').height($('.referencediv').height() - 10);
+
 });
+
+$(window).load(function(){    $('.bigimg').height($('.referencediv').height() - 10); })
 
 //Para regular el comportamiento colapsible del menú en móviles
 function setMenuStyles(){
@@ -43,6 +45,7 @@ function setMenuStyles(){
 
 //Ajax contact form from VTS
 //Why do codes never work when copy-pasted?
+//Woah, this one worked.
 
 $(function() {
 

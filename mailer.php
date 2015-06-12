@@ -87,13 +87,14 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "chris.jaquez@mixen.mx, jon.palma@mixen.mx, chja@outlook.com";
+        $recipient = "chris.jaquez@mixen.mx, jon.palma@mixen.mx, rentas@elsolsaleparatodos.mx";
 
         // Set the email subject.
-        $subject = "Contactar a $name";
+        $subject = "Contactar a $name sobre $asunto";
 
         // Build the email content.
-        $email_content = "Nombre: $name\n";
+        $email_content = "Mensaje enviado desde la forma de contacto de elsolsaleparatodos.mx"
+        $email_content .= "Nombre: $name\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Asunto: $asunto\n\n";

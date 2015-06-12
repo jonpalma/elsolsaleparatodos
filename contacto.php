@@ -19,6 +19,8 @@
                     <h2>CONTÁCTANOS</h2>
                     <br>
                     <p>Para cualquier duda o situación estamos a la orden.</p>
+                    <p>Teléfono Celular</p>
+                    <p>016142857326</p>
                     <p>Email</p>
                     <p>rentas@elsolsaleparatodos.mx</p>
                </div>
