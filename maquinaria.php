@@ -38,10 +38,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12">
-                            <a href="img/maquinaria/5-hd.jpg" data-lightbox="m2" data-title="Antes y Después">
+                        <div class="col-xs-12 col-md-6">
+                            <a href="img/maquinaria/14-hd.jpg" data-lightbox="m2" data-title="Árboles">
                                 <div class="imagehoverdiv">
-                                    <img src="img/maquinaria/5.png" alt="Antes y Después">
+                                    <img src="img/maquinaria/14.jpg" alt="Árboles">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a href="img/maquinaria/15-hd.jpg" data-lightbox="m2" data-title="Árboles">
+                                <div class="imagehoverdiv">
+                                    <img src="img/maquinaria/15.jpg" alt="Árboles">
                                 </div>
                             </a>
                         </div>
@@ -164,4 +171,15 @@
             </div>
         </div>
 </div>
+
+<script src="js/videoLightning.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".video-link").jqueryVideoLightning({
+        autoplay: true,
+        color: "white"
+    });
+});
+</script>        
 <?php include('footer.html'); ?>

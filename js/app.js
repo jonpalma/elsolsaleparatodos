@@ -4,12 +4,9 @@ var menuCollapsed = false;
 // Inicializar elementos
 $(document).ready(function(){
     $('body').scrollspy({offset: 150});
-    $('.parallax').parallax();
+    //$('.parallax').parallax();
     setMenuStyles();    
-    $(".video-link").jqueryVideoLightning({
-        autoplay: true,
-        color: "white"
-    });
+    centerModals();
 
 });
 
@@ -42,6 +39,28 @@ function setMenuStyles(){
         }
            
 }
+
+//Modal Center by Cory LaViska from http://www.abeautifulsite.net/vertically-centering-bootstrap-modals/
+function centerModals(){
+    $(function() {
+        function reposition() {
+                var modal = $(this),
+                    dialog = modal.find('.modal-dialog');
+                modal.css('display', 'block');
+
+                // Dividing by two centers the modal exactly, but dividing by three 
+                // or four works better for larger screens.
+                dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 3));
+            }
+            // Reposition when a modal is shown
+            $('.modal').on('show.bs.modal', reposition);
+            // Reposition when the window is resized
+            $(window).on('resize', function() {
+                $('.modal:visible').each(reposition);
+        });
+    });
+}
+
 
 //Ajax contact form from VTS
 //Why do codes never work when copy-pasted?

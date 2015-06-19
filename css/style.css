@@ -26,6 +26,19 @@ h1 {
     line-height: 100% !important;
 }
 
+.center-block {
+    display: block;
+    margin: 20px auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.white {
+    color: #fff;
+}
+
 .centerdiv /*center-ish*/ {
     position: relative;
     left: 44%;
@@ -74,7 +87,7 @@ ul.navbar-nav > li.active > a {
     box-shadow: none !important;
 }
 
-.in, .collapsing{
+header .in, header .collapsing{
     margin-top: 5px;
     background-color: #ffffff;
 }
@@ -179,6 +192,14 @@ ul.navbar-nav > li.active > a {
     color: #fff;
 }
 
+.beneficios img {
+    cursor: pointer;
+}
+
+.beneficios img:hover {
+    cursor: pointer;
+}
+
 .beneficios p {
         margin-bottom: 84px;
         margin-top: 20px;
@@ -261,6 +282,28 @@ ul.navbar-nav > li.active > a {
     font: 400 15.99px / 25px Lato;
     margin: 40px;
 }
+
+/* Circular Modals */
+
+#circular-modal .modal-content {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#circular-modal img {
+    width: 40vh;
+    height: auto;
+}
+
+#circular-modal p {
+    font-size: 18px;
+}
+
+#circular-modal .in {
+    background-color: rgba(0,0,0,0.3)
+}
+
 
 /* Modified Parallax CSS by Chris */
 .parallax-container {
@@ -432,6 +475,7 @@ footer a{
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+
 .imagehoverdiv:after {
     content: "";
     background: url('../img/maquinaria/hover.png') no-repeat center center;
@@ -541,7 +585,7 @@ footer a{
 }
 
 @media (min-width: 768px) {
-    .in, .collapsing{
+    header .in, header .collapsing{
         margin-top: 0px;
     }
     

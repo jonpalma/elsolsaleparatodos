@@ -81,23 +81,23 @@
                        <!--Empty div to get the 12n columns -->
                         <div class="col-sm-3 col-md-2 col-lg-1"></div>
                         
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#formacion-modal">
                             <img src="img/beneficios/1-hojas.png" alt="Hojas" />
                             <p>Adaptar la formación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#aireacion-modal">
                             <img src="img/beneficios/2-viento.png" alt="Viento" />
                             <p>Mejorar la aireación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#iluminacion-modal">
                             <img src="img/beneficios/3-sol.png" alt="Sol" />
                             <p>Mejorar la iluminación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#floracion-modal">
                             <img src="img/beneficios/4-flor.png" alt="Flor" />
                             <p>Favorecer la floración</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#fructificacion-modal">
                             <img src="img/beneficios/5-aguacate.png" alt="Aguacate" />
                             <p>Favorecer la fructificación</p>
                         </div>
@@ -106,13 +106,13 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="rightbeneficio">
+                            <div class="rightbeneficio" data-toggle="modal" data-target="#nuez-modal">
                                 <img src="img/beneficios/6-nuez.png" alt="Nuez" />
                                 <p>Obtener nuez de calidad</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="leftbeneficio">
+                            <div class="leftbeneficio" data-toggle="modal" data-target="#rendimiento-modal">
                                 <img src="img/beneficios/7-grafica.png" alt="Gráfica" />
                                 <p>Aumentar el rendimiento</p>
                             </div>
@@ -205,5 +205,6 @@
                 </div>
             </div>
         </div>
-        
+    
+<?php include('circular-modals.html'); ?>        
 <?php include('footer.html'); ?>
