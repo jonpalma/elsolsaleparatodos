@@ -285,6 +285,10 @@ header .in, header .collapsing{
 
 /* Circular Modals */
 
+.modal {
+    overflow: visible !important;
+}
+
 #circular-modal .modal-content {
     background-color: transparent;
     box-shadow: none;
