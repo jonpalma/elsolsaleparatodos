@@ -18,8 +18,8 @@
                       <img src="img/banner/1.jpg" class="img-responsive" alt="">
                       <div class="container">
                           <div class="carousel-caption">
-                              <h1>EL MEJOR CUIDADO</h1>
-                              <h2>PARA TUS NOGALES</h2>
+                              <h1>Para que PODAMOS ganar más...</h1>
+                              <h2>PODEMOS bien los nogales.</h2>
                           </div>
                       </div>
                     </div>

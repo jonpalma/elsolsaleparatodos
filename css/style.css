@@ -585,7 +585,18 @@ footer a{
     
     #inicio {
     margin-top:60px;
-}
+    }
+    
+    #circular-modal h1 {
+        font-size: 22px;
+    }
+    
+    #circular-modal p {
+    font-size: 13px;
+    overflow: scroll;
+    max-height: 40vh;
+    }
+    
 }
 
 @media (min-width: 768px) {
