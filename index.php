@@ -18,17 +18,17 @@
                       <img src="img/banner/1.jpg" class="img-responsive" alt="">
                       <div class="container">
                           <div class="carousel-caption">
-                              <h1>Para que PODAMOS ganar más...</h1>
+                              <h1>Para que PODAMOS ganar más...</h1><div class="border"></div>
                               <h2>PODEMOS bien los nogales.</h2>
                           </div>
                       </div>
                     </div>
                    <div class="item">
-                      <img src="img/banner/2.jpg" class="img-responsive" alt="">
+                      <img src="img/banner/18.jpg" class="img-responsive" alt="">
                       <div class="container">
                           <div class="carousel-caption">
-                              <h1>MEJORA LA CALIDAD</h1>
-                              <h2>DE TUS AGUACATES</h2>
+                              <h1>MEJORA LA CALIDAD</h1><div class="border"></div>
+                              <h2>DE TUS NUECES</h2>
                           </div>
                       </div>
                     </div>
@@ -36,7 +36,7 @@
                       <img src="img/banner/3.jpg" class="img-responsive" alt="">
                       <div class="container">
                           <div class="carousel-caption">
-                              <h1>AUMENTA LA ILUMINACIÓN</h1>
+                              <h1>AUMENTA LA ILUMINACIÓN</h1><div class="border"></div>
                               <h2>DE TU HUERTO</h2>
                           </div>
                       </div>
@@ -45,7 +45,7 @@
                       <img src="img/banner/4.jpg" class="img-responsive" alt="">
                       <div class="container">
                           <div class="carousel-caption">
-                              <h1>CUIDA TUS ÁRBOLES</h1>
+                              <h1>CUIDA TUS ÁRBOLES</h1><div class="border"></div>
                               <h2>CON LAS MEJORES MÁQUINAS</h2>
                           </div>
                       </div>
@@ -79,41 +79,55 @@
                     <h1>BENEFICIOS QUE TE PROPORCIONAMOS</h1>
                     <div class="row" >
                        <!--Empty div to get the 12n columns -->
-                        <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                        <div class="col-sm-3 col-lg-1"></div>
                         
-                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#formacion-modal">
-                            <img src="img/beneficios/1-hojas.png" alt="Hojas" />
+                        <div class="col-sm-6 col-lg-2" data-toggle="modal" data-target="#formacion-modal">
+                            <div class="beneficioshover">
+                            	<img src="img/beneficios/1-hojas.png" alt="Hojas" />
+                            </div>
                             <p>Adaptar la formación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#aireacion-modal">
-                            <img src="img/beneficios/2-viento.png" alt="Viento" />
+                        <div class="col-sm-6 col-lg-2" data-toggle="modal" data-target="#aireacion-modal">
+                            <div class="beneficioshover">
+                            	<img src="img/beneficios/2-viento.png" alt="Viento" />
+                            </div>
                             <p>Mejorar la aireación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#iluminacion-modal">
-                            <img src="img/beneficios/3-sol.png" alt="Sol" />
+                        <div class="col-sm-6 col-lg-2" data-toggle="modal" data-target="#iluminacion-modal">
+                            <div class="beneficioshover">
+                            	<img src="img/beneficios/3-sol.png" alt="Sol" />
+                            </div>
                             <p>Mejorar la iluminación</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#floracion-modal">
-                            <img src="img/beneficios/4-flor.png" alt="Flor" />
+                        <div class="col-sm-6 col-lg-2" data-toggle="modal" data-target="#floracion-modal">
+                            <div class="beneficioshover">
+                            	<img src="img/beneficios/4-flor.png" alt="Flor" />
+                            </div>
                             <p>Favorecer la floración</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-2" data-toggle="modal" data-target="#fructificacion-modal">
-                            <img src="img/beneficios/5-aguacate.png" alt="Aguacate" />
+                        <div class="col-sm-6 col-lg-2" data-toggle="modal" data-target="#fructificacion-modal">
+                            <div class="beneficioshover">
+                            	<img src="img/beneficios/5-aguacate.png" alt="Aguacate" />
+                            </div>
                             <p>Favorecer la fructificación</p>
                         </div>
                         <!--Empty div to get the 12n columns -->
-                        <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                        <div class="col-sm-3 col-lg-1"></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="rightbeneficio" data-toggle="modal" data-target="#nuez-modal">
-                                <img src="img/beneficios/6-nuez.png" alt="Nuez" />
+                                <div class="beneficioshover">
+                                	<img src="img/beneficios/6-nuez.png" alt="Nuez" />
+                                </div>
                                 <p>Obtener nuez de calidad</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="leftbeneficio" data-toggle="modal" data-target="#rendimiento-modal">
-                                <img src="img/beneficios/7-grafica.png" alt="Gráfica" />
+                                <div class="beneficioshover">
+                                	<img src="img/beneficios/7-grafica.png" alt="Gráfica" />
+                                </div>
                                 <p>Aumentar el rendimiento</p>
                             </div>
                         </div>
@@ -172,7 +186,7 @@
         <div id="tiposdepoda">
             <div class="parallax-container">
                 <div class="parallax">
-                    <img src="img/parallax/1.jpg" alt="">
+                    <img src="img/parallax/17.jpg" alt="">
                 </div>
                 <div class="container">
                     <h1>TIPOS DE PODA QUE MANEJAMOS</h1>
