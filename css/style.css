@@ -132,13 +132,19 @@ header .in, header .collapsing{
     padding: 0px;
 }
 
+.carousel-caption div.border {
+	border-top: 3px solid white;
+	width: 40%;
+	display: block;
+	margin: auto;
+	
+}
+
 .carousel-caption h2 {
     padding-top:  10px;
-    border-top: 3px solid white;
     color: #ffffff;
     font: 700 30px / 50px Lato;
     display: block;
-    width: 40%;
     margin: 0px auto;
     
 }
@@ -467,17 +473,25 @@ footer a{
     width: auto;
 }
 
-.imagehoverdiv, .videohoverdiv {
+.imagehoverdiv, .videohoverdiv, .beneficioshover {
     overflow: hidden;
     margin: 5px auto;
     position:relative;
 }
 
-.imagehoverdiv:after, .imagehoverdiv:before, .videohoverdiv:after, .videohoverdiv:before {
+.imagehoverdiv:after, .imagehoverdiv:before, .videohoverdiv:after, .videohoverdiv:before, .beneficioshover:before, .beneficioshover:after {
     position:absolute;
     opacity:0;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+}
+
+.beneficioshover:after {
+	content: "";
+    width:100%; height:100%;
+	top:0; left:0;
+	background: url('../img/beneficios/hover.png') no-repeat center center;
+	cursor: pointer;
 }
 
 .imagehoverdiv:after {
@@ -498,7 +512,7 @@ footer a{
 .video-link {
     margin: 5px -9px;
 }
-.imagehoverdiv:before, .videohoverdiv:before {
+.imagehoverdiv:before, .videohoverdiv:before, .beneficioshover:before {
     content: attr(data-content);
     width:100%;
     color:#fff;
@@ -507,7 +521,7 @@ footer a{
     padding:4px 10px;
     text-align:center;
 }
-.imagehoverdiv:hover:after, .imagehoverdiv:hover:before, .videohoverdiv:hover:after, .videohoverdiv:hover:before  {
+.imagehoverdiv:hover:after, .imagehoverdiv:hover:before, .videohoverdiv:hover:after, .videohoverdiv:hover:before, .beneficioshover:hover:before, .beneficioshover:hover:after  {
     opacity:1;
 }
 
@@ -585,7 +599,18 @@ footer a{
     
     #inicio {
     margin-top:60px;
-}
+    }
+    
+    #circular-modal h1 {
+        font-size: 22px;
+    }
+    
+    #circular-modal p {
+    font-size: 13px;
+    overflow: scroll;
+    max-height: 40vh;
+    }
+    
 }
 
 @media (min-width: 768px) {
